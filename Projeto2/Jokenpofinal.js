@@ -13,7 +13,6 @@ var resp = ''
 cont = 1
 var rodadas = +pc("Quantas rodadas deseja jogar? ");
 console.clear()
-while(cont <= rodadas){
 for (i = 0; i < rodadas; i++){
     cont++
     console.log("O que você escolhe entre: pedra, papel ou tesoura?") 
@@ -87,7 +86,7 @@ console.log(`Empates: ${vit} vitorias e ${der}`);
 console.log()
 resp = pc("Deseja jogar novamente? ")
 console.clear()
-}}while (resp !== 'nao')
+}while (resp !== 'nao')
 
 
 
