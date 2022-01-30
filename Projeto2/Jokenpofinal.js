@@ -73,7 +73,7 @@ if (vit > der)
 {
 console.log(`Você ganhou da máquina com incriveis: ${vit} Vitórias em cima dela!`);
 console.log(`UMA BESTA ENJAULADA!!`)
-console.log(`Curiosamente, nessa partida você teve: ${empate}`);
+console.log(`Curiosamente, nessa partida você teve: ${empate} empates`);
 }
 if (vit < der)
 {
@@ -81,7 +81,7 @@ console.log(`Você foi derrotado pela maquina com: ${der} Vitórias para ela!`);
 console.log(`Talvez devessemos repensar sobre a evolução da tecnologia...`)
 console.log(`Curiosamente, nessa partida você teve: ${empate} empates`);
 } else if (vit == der){
-console.log(`Empates: ${vit} vitorias e ${der}`);
+console.log(`Empates: ${vit} vitorias e ${der} derrotas`);
 }
 console.log()
 resp = pc("Deseja jogar novamente? ")
